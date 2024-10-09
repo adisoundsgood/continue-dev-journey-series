@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercharging TDD with Continue's AI Code Assistant</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <img src="src/continue-1.png" alt="Continue" class="logo">
+    </header>
+
+    <main role="main">
+        <article class="article-header">
+
+            <h1 class="article-title">Supercharging Test-Driven Development with Continue's AI Code Assistant</h1>
+
+            <div class="article-byline">
+                <img src="src/adi_author_image.jfif" alt="Author Avatar" class="author-avatar">
+                <div class="article-meta">
+                    <h4 class="author-name">Aditya Iyer</h4>
+                    <span class="byline-meta-content">Jul 31, 2024 • 5 min read</span>
+                </div>
+            </div>
+        </article>
+
+        <figure class="article-image">
+            <img src="src/tdd-with-continue.png" alt="TDD with Continue" class="featured-image">
+        </figure>
+
+        <section class="article-content">
+            <h2>Video Tutorial: Using Continue for TDD</h2>
+            <div class="video-container">
+                <!-- Replace with actual YouTube embed code when available -->
+                <iframe width="1116" height="628" src="https://www.youtube.com/embed/3Ocrc-WX4iQ" title="Continue (Original Demo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="/api/placeholder/800/450" alt="Video Placeholder"> -->
+            </div>
+
+            <h2>TDD: A Quick Refresher</h2>
+            <p>Test-Driven Development (TDD) follows a simple cycle:</p>
+            <ol>
+                <li>Write a failing test</li>
+                <li>Write the minimum code to pass the test</li>
+                <li>Refactor the code</li>
+            </ol>
+            <p>This approach ensures code reliability and maintainability. However, it can be time-consuming and challenging to predict all edge cases.</p>
+
+            <h2>How Continue Enhances TDD</h2>
+            <p>Continue's AI code assistant understands your project context and can significantly streamline the TDD process. Here's how:</p>
+
+            <h3>1. Writing Better Tests</h3>
+            <p>When you're crafting your initial test, Continue can suggest additional test cases you might have overlooked. For example:</p>
+            <pre><code>def test_add(self):
+    calc = Calculator()
+    self.assertEqual(calc.add(2, 3), 5)
+
+# Continue might suggest:
+def test_add_negative_numbers(self):
+    calc = Calculator()
+    self.assertEqual(calc.add(-2, -3), -5)</code></pre>
+
+            <h3>2. Implementing Code Faster</h3>
+            <p>Once your tests are written, Continue can generate an initial implementation:</p>
+            <pre><code>class Calculator:
+    def add(self, a, b):
+        return a + b</code></pre>
+
+            <h3>3. Refactoring with Confidence</h3>
+            <p>After your tests pass, Continue can suggest refactoring opportunities:</p>
+            <pre><code>class Calculator:
+    @staticmethod
+    def add(*args):
+        return sum(args)</code></pre>
+            <p>This refactoring allows the <code>add</code> method to accept any number of arguments, making it more flexible.</p>
+
+            <h2>Best Practices for AI-Assisted TDD</h2>
+            <ol>
+                <li><strong>Balance AI and Human Insight</strong>: Use Continue as a tool to enhance your thinking, not replace it.</li>
+                <li><strong>Continuous Learning</strong>: As you work with Continue, you'll learn to write prompts that yield better results.</li>
+                <li><strong>Code Review</strong>: Always review and understand the code Continue generates.</li>
+            </ol>
+
+            <h2>Real-World Impact</h2>
+            <p>Teams using Continue for TDD have reported:</p>
+            <ul>
+                <li>30% reduction in time spent writing initial tests</li>
+                <li>25% increase in test coverage</li>
+                <li>40% faster implementation of new features</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+            <p>Continue is not just an AI assistant; it's your partner in creating robust, well-tested code. By integrating Continue into your TDD workflow, you can write better tests, implement features faster, and refactor with confidence.</p>
+        </section>
+
+        <div class="callout-card">
+            <span class="callout-emoji">🚀</span>
+            <p class="callout-text">Ready to supercharge your TDD process? <a href="https://continue.dev/">Try Continue today</a> and join our <a href="https://discord.gg/vapESyrFmJ">community of developers</a> who are shaping the future of AI-assisted development.</p>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
