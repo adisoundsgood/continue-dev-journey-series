@@ -5,7 +5,7 @@ Welcome to the Continue Developer Journey Series! This repository hosts a collec
 ## Contents
 
 1. [Blog Post: Amplifying Developers: The Future of AI-Assisted Coding with Continue](index.html)
-2. [Tutorial: Test-Driven Development with Continue](tutorial.html)
+2. [Tutorial: Test-Driven Development with Continue](tdd.html)
 3. [Sample Code](sample-code/)
 
 ## About the Series
