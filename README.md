@@ -4,8 +4,8 @@ Welcome to the Continue Developer Journey Series! This repository hosts a collec
 
 ## Contents
 
-1. [Blog Post: Amplifying Developers: The Future of AI-Assisted Coding with Continue]((https://adisoundsgood.github.io/continue-dev-journey-series/index.html))
-2. [Tutorial: Test-Driven Development with Continue]((https://adisoundsgood.github.io/continue-dev-journey-series/tdd.html))
+1. [Blog Post: Amplifying Developers: The Future of AI-Assisted Coding with Continue](https://adisoundsgood.github.io/continue-dev-journey-series/index.html)
+2. [Tutorial: Test-Driven Development with Continue](https://adisoundsgood.github.io/continue-dev-journey-series/tdd.html)
 3. [Sample Code](sample-code/)
 
 ## About the Series
