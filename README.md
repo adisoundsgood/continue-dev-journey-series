@@ -14,9 +14,9 @@ The Developer Journey Series is aimed at developers who want to explore the poss
 
 ## How to Use This Repository
 
-- Read the [introductory blog post](index.html) to understand our vision for AI-assisted coding.
-- Follow along with the [tutorial](tdd.html) to get hands-on experience using Continue for test-driven development.
-- Explore the [sample code](sample-code/) to see Continue in action and experiment with your own projects.
+- Read the [introductory blog post](https://adisoundsgood.github.io/continue-dev-journey-series/index.html) to understand our vision for AI-assisted coding.
+- Explore the [tutorial](https://adisoundsgood.github.io/continue-dev-journey-series/tdd.html) to get hands-on experience using Continue for test-driven development.
+- Follow along with the [sample code](sample-code/) to see Continue in action and experiment with your own projects.
 
 ## Contributing
 
