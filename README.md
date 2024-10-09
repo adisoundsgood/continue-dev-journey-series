@@ -26,6 +26,6 @@ We welcome contributions from the community! If you have ideas for improving the
 
 - Join our [Discord community](https://discord.gg/vapESyrFmJ) to discuss AI-assisted coding and connect with other developers.
 - Follow us on [Twitter](https://twitter.com/continuedev) for the latest updates and tips.
-- Subscribe to our [newsletter](https://continue.dev/#newsletter) for monthly insights into DevAI.
+- Subscribe to our [newsletter](https://blog.continue.dev/tag/newsletter/) for monthly insights into DevAI.
 
 Let's build the future of software development together with Continue!
