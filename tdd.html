@@ -13,7 +13,6 @@
 
     <main role="main">
         <article class="article-header">
-
             <h1 class="article-title">Supercharging Test-Driven Development with Continue's AI Code Assistant</h1>
 
             <div class="article-byline">
@@ -32,9 +31,7 @@
         <section class="article-content">
             <h2>Video Tutorial: Using Continue for TDD</h2>
             <div class="video-container">
-                <!-- Replace with actual YouTube embed code when available -->
                 <iframe width="1116" height="628" src="https://www.youtube.com/embed/3Ocrc-WX4iQ" title="Continue (Original Demo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <!-- <img src="/api/placeholder/800/450" alt="Video Placeholder"> -->
             </div>
 
             <h2>TDD: A Quick Refresher</h2>
@@ -74,11 +71,21 @@ def test_add_negative_numbers(self):
         return sum(args)</code></pre>
             <p>This refactoring allows the <code>add</code> method to accept any number of arguments, making it more flexible.</p>
 
+            <h2>Advanced Features in the Sample Code</h2>
+            <p>The sample code provided in the <code>sample-code</code> folder includes some advanced features that demonstrate the power of TDD and Continue:</p>
+            <ul>
+                <li><strong>Handling newline characters between numbers:</strong> The calculator can now process inputs with both commas and newlines as separators.</li>
+                <li><strong>Throwing an exception for negative numbers:</strong> The code now validates inputs and raises a ValueError if negative numbers are provided.</li>
+                <li><strong>Ignoring numbers greater than 1000:</strong> This feature adds a business rule to exclude large numbers from the calculation.</li>
+                <li><strong>Supporting custom delimiters:</strong> Users can now specify their own delimiter for maximum flexibility.</li>
+            </ul>
+            <p>These features showcase how TDD can guide the evolution of your code to handle more complex requirements. Try exploring these features and writing tests for them as an exercise to further improve your TDD skills!</p>
+
             <h2>Best Practices for AI-Assisted TDD</h2>
             <ol>
-                <li><strong>Balance AI and Human Insight</strong>: Use Continue as a tool to enhance your thinking, not replace it.</li>
-                <li><strong>Continuous Learning</strong>: As you work with Continue, you'll learn to write prompts that yield better results.</li>
-                <li><strong>Code Review</strong>: Always review and understand the code Continue generates.</li>
+                <li><strong>Balance AI and Human Insight:</strong> Use Continue as a tool to enhance your thinking, not replace it.</li>
+                <li><strong>Continuous Learning:</strong> As you work with Continue, you'll learn to write prompts that yield better results.</li>
+                <li><strong>Code Review:</strong> Always review and understand the code Continue generates.</li>
             </ol>
 
             <h2>Real-World Impact</h2>
@@ -90,7 +97,7 @@ def test_add_negative_numbers(self):
             </ul>
 
             <h2>Conclusion</h2>
-            <p>Continue is not just an AI assistant; it's your partner in creating robust, well-tested code. By integrating Continue into your TDD workflow, you can write better tests, implement features faster, and refactor with confidence.</p>
+            <p>Continue is not just an AI assistant; it's your partner in creating robust, well-tested code. By integrating Continue into your TDD workflow, you can write better tests, implement features faster, and refactor with confidence. The advanced features in the sample code demonstrate how TDD and Continue can work together to tackle complex programming challenges.</p>
         </section>
 
         <div class="callout-card">
